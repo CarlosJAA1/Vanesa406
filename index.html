@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone - Portal de Videojuegos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-gamepad"></i>
+                <span>GameZone</span>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        <nav>
+    <ul id="mainMenu">
+        <li><a href="index.html" class="active"><i class="fas fa-home"></i> Inicio</a></li>
+        <li class="has-submenu">
+            <a href="juegos.html"><i class="fas fa-joystick"></i> Juegos <i class="fas fa-chevron-down"></i></a>
+            <ul class="submenu">
+                <li><a href="juegos-pc.html"><i class="fas fa-desktop"></i> Juegos PC</a></li>
+                <li><a href="juegos-ps5.html"><i class="fab fa-playstation"></i> PlayStation 5</a></li>
+
+            </ul>
+        </li>
+        <li><a href="noticias.html"><i class="fas fa-newspaper"></i> Noticias</a></li>
+        <li class="has-submenu">
+            <a href="comunidad.html"><i class="fas fa-users"></i> Comunidad <i class="fas fa-chevron-down"></i></a>
+           
+        </li>
+    </ul>
+</nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Descubre el universo de los videojuegos</h1>
+                <p>Las últimas novedades, reseñas y mucho más en un solo lugar</p>
+                <a href="juegos.html" class="btn btn-primary">Explorar Juegos</a>
+            </div>
+        </section>
+
+        <section class="featured-games">
+            <h2 class="section-title"><i class="fas fa-star"></i> Juegos Destacados</h2>
+            <div class="games-grid">
+                <div class="game-card">
+                    <img src="111.jpeg" alt="Cyberpunk 2077">
+                    <div class="game-info">
+                        <h3>Cyberpunk 2077</h3>
+                        <div class="game-meta">
+                            <span class="genre">RPG</span>
+                            <span class="rating"><i class="fas fa-star"></i> 4.5</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-card">
+                    <img src="./2222.jpeg" alt="Elden Ring">
+                    <div class="game-info">
+                        <h3>Elden Ring</h3>
+                        <div class="game-meta">
+                            <span class="genre">Souls-like</span>
+                            <span class="rating"><i class="fas fa-star"></i> 5.0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-card">
+                    <img src="./3333.jpeg" alt="God of War">
+                    <div class="game-info">
+                        <h3>God of War: Ragnarök</h3>
+                        <div class="game-meta">
+                            <span class="genre">Aventura</span>
+                            <span class="rating"><i class="fas fa-star"></i> 4.8</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="latest-news">
+            <h2 class="section-title"><i class="fas fa-newspaper"></i> Últimas Noticias</h2>
+            <div class="news-grid">
+                <article class="news-card">
+                    <img src="./4444.jpeg" alt="Nuevo DLC">
+                    <div class="news-content">
+                        <h3>Nuevo DLC anunciado para The Witcher 3</h3>
+                        <p class="news-date"><i class="far fa-calendar-alt"></i> 15 Junio 2025</p>
+                        <p>CD Projekt Red ha anunciado sorpresivamente nuevo contenido para el clásico RPG...</p>
+                        <a href="noticias.html" class="btn btn-outline">Leer más</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <img src="./55555.jpeg" alt="Next Gen">
+                    <div class="news-content">
+                        <h3>Comparativa: PS5 Pro vs Xbox Series X+</h3>
+                        <p class="news-date"><i class="far fa-calendar-alt"></i> 12 Junio 2025</p>
+                        <p>Análisis en profundidad de las nuevas versiones de las consolas next-gen...</p>
+                        <a href="noticias.html" class="btn btn-outline">Leer más</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-gamepad"></i>
+                    <span>GameZone</span>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Explorar</h4>
+                        <ul>
+                            <li><a href="juegos.html">Juegos</a></li>
+                            <li><a href="noticias.html">Noticias</a></li>
+                            <li><a href="comunidad.html">Comunidad</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Soporte</h4>
+                        <ul>
+                            <li><a href="#">Contacto</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Términos</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <h4>Síguenos</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-twitch"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 GameZone. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

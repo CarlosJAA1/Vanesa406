@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunidad de Gamers | GameZone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-gamepad"></i>
+                <span>GameZone</span>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul id="mainMenu">
+                    <li><a href="index.html"><i class="fas fa-home"></i> Inicio</a></li>
+                    <li><a href="juegos.html"><i class="fas fa-joystick"></i> Juegos</a></li>
+                    <li><a href="noticias.html"><i class="fas fa-newspaper"></i> Noticias</a></li>
+                    <li><a href="comunidad.html" class="active"><i class="fas fa-users"></i> Comunidad</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 class="page-title"><i class="fas fa-users"></i> Comunidad GameZone</h1>
+        
+        <div class="community-container">
+            <div class="user-profile">
+                <div class="profile-header">
+                    <img src="./121.jpeg" alt="Avatar" class="avatar">
+                    <div class="profile-info">
+                        <h2>Bienvenido, Jugador</h2>
+                        <div class="user-stats">
+                            <span><i class="fas fa-trophy"></i> Nivel 25</span>
+                            <span><i class="fas fa-medal"></i> 1,240 Puntos</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-actions">
+                    <button class="btn btn-primary"><i class="fas fa-edit"></i> Editar Perfil</button>
+                    <button class="btn btn-outline"><i class="fas fa-cog"></i> Configuración</button>
+                </div>
+            </div>
+
+            <div class="community-content">
+                <div class="foro-container">
+                    <h2><i class="fas fa-comments"></i> Foro de Discusión</h2>
+                    
+                    <div class="new-post">
+                        <textarea placeholder="¿Qué quieres compartir con la comunidad?"></textarea>
+                        <div class="post-actions">
+                            <button class="btn btn-primary">Publicar</button>
+                            <div class="attachment-options">
+                                <button><i class="fas fa-image"></i></button>
+                                <button><i class="fas fa-video"></i></button>
+                                <button><i class="fas fa-link"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="forum-posts">
+                        <article class="forum-post">
+                            <div class="post-header">
+                                <img src="./121.jpeg" alt="Usuario" class="post-avatar">
+                                <div class="post-author">
+                                    <h3>JuanP_Gamer</h3>
+                                    <span class="post-date">Hace 2 horas</span>
+                                </div>
+                            </div>
+                            <div class="post-content">
+                                <h4>¿Alguien más está teniendo problemas con los servidores de Valorant?</h4>
+                                <p>Desde ayer no puedo conectarme a ninguna partida, siempre me sale error de conexión. ¿Es solo yo o es un problema general?</p>
+                                <div class="post-tags">
+                                    <span class="tag">#Valorant</span>
+                                    <span class="tag">#Problemas</span>
+                                </div>
+                            </div>
+                            <div class="post-footer">
+                                <button class="btn-like"><i class="far fa-thumbs-up"></i> 12</button>
+                                <button class="btn-comment"><i class="far fa-comment"></i> 5 comentarios</button>
+                            </div>
+                        </article>
+
+                        <article class="forum-post">
+                            <div class="post-header">
+                                <img src="./131.jpeg" alt="Usuario" class="post-avatar">
+                                <div class="post-author">
+                                    <h3>LauGameGirl</h3>
+                                    <span class="post-date">Hace 5 horas</span>
+                                </div>
+                            </div>
+                            <div class="post-content">
+                                <h4>Guía completa para conseguir todos los finales en Elden Ring</h4>
+                                <p>Después de 300 horas de juego, finalmente completé todos los finales. Aquí les dejo una guía detallada para conseguirlos todos sin spoilers mayores.</p>
+                                <img src="./2222.jpeg" alt="Guía Elden Ring" class="post-image">
+                                <div class="post-tags">
+                                    <span class="tag">#EldenRing</span>
+                                    <span class="tag">#Guía</span>
+                                    <span class="tag">#Soulslike</span>
+                                </div>
+                            </div>
+                            <div class="post-footer">
+                                <button class="btn-like"><i class="far fa-thumbs-up"></i> 45</button>
+                                <button class="btn-comment"><i class="far fa-comment"></i> 18 comentarios</button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="community-sidebar">
+                    <div class="sidebar-section">
+                        <h3><i class="fas fa-fire"></i> Tendencias</h3>
+                        <ul class="trending-list">
+                            <li><a href="#">#SummerGameFest</a></li>
+                            <li><a href="#">#Cyberpunk2077</a></li>
+                            <li><a href="#">#PS5Pro</a></li>
+                            <li><a href="#">#XboxShowcase</a></li>
+                            <li><a href="#">#ZeldaTOTK</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-section">
+                        <h3><i class="fas fa-users"></i> Jugadores en línea</h3>
+                        <div class="online-users">
+                            <div class="online-user">
+                                <img src="./4444.jpeg" alt="Usuario">
+                                <span>GamerPro23</span>
+                            </div>
+                            <div class="online-user">
+                                <img src="./4444.jpeg" alt="Usuario">
+                                <span>AnaTheKiller</span>
+                            </div>
+                            <div class="online-user">
+                                <img src="./141.jpeg" alt="Usuario">
+                                <span>PabloGTA</span>
+                            </div>
+                            <div class="online-user">
+                                <img src="./131.jpeg" alt="Usuario">
+                                <span>LuchoFifa</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-section">
+                        <h3><i class="fas fa-calendar-alt"></i> Eventos</h3>
+                        <div class="event-card">
+                            <h4>Torneo de Fortnite</h4>
+                            <p><i class="far fa-clock"></i> 25 Junio, 18:00 GMT</p>
+                            <button class="btn btn-primary btn-sm">Participar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-gamepad"></i>
+                    <span>GameZone</span>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2025 GameZone. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

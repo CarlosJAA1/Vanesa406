@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Juegos | GameZone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-gamepad"></i>
+                <span>GameZone</span>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul id="mainMenu">
+                    <li><a href="index.html"><i class="fas fa-home"></i> Inicio</a></li>
+                    <li><a href="juegos.html" class="active"><i class="fas fa-joystick"></i> Juegos</a></li>
+                    <li><a href="noticias.html"><i class="fas fa-newspaper"></i> Noticias</a></li>
+                    <li><a href="comunidad.html"><i class="fas fa-users"></i> Comunidad</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 class="page-title"><i class="fas fa-joystick"></i> Catálogo de Juegos</h1>
+        
+        <div class="filters">
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar juegos...">
+                <button class="btn btn-primary"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="filter-options">
+                <select>
+                    <option value="">Todos los géneros</option>
+                    <option value="rpg">RPG</option>
+                    <option value="fps">FPS</option>
+                    <option value="aventura">Aventura</option>
+                    <option value="estrategia">Estrategia</option>
+                </select>
+                <select>
+                    <option value="">Todas las plataformas</option>
+                    <option value="pc">PC</option>
+                    <option value="ps5">PlayStation 5</option>
+                    <option value="xbox">Xbox Series X</option>
+                    <option value="switch">Nintendo Switch</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="games-grid extended">
+            <div class="game-card">
+                <img src="./111.jpeg" alt="Cyberpunk 2077">
+                <div class="game-info">
+                    <h3>Cyberpunk 2077</h3>
+                    <div class="game-meta">
+                        <span class="platform"><i class="fas fa-desktop"></i> PC/PS5/Xbox</span>
+                        <span class="rating"><i class="fas fa-star"></i> 4.5</span>
+                    </div>
+                    <a href="#" class="btn btn-primary btn-sm">Ver detalles</a>
+                </div>
+            </div>
+            
+            <div class="game-card">
+                <img src="./2222.jpeg" alt="Elden Ring">
+                <div class="game-info">
+                    <h3>Elden Ring</h3>
+                    <div class="game-meta">
+                        <span class="platform"><i class="fas fa-tv"></i> Todas</span>
+                        <span class="rating"><i class="fas fa-star"></i> 5.0</span>
+                    </div>
+                    <a href="#" class="btn btn-primary btn-sm">Ver detalles</a>
+                </div>
+            </div>
+            
+            <!-- Más juegos... -->
+            <div class="game-card">
+                <img src="./3333.jpeg" alt="The Witcher 3">
+                <div class="game-info">
+                    <h3>The Witcher 3</h3>
+                    <div class="game-meta">
+                        <span class="platform"><i class="fas fa-desktop"></i> PC/PS/Xbox</span>
+                        <span class="rating"><i class="fas fa-star"></i> 5.0</span>
+                    </div>
+                    <a href="#" class="btn btn-primary btn-sm">Ver detalles</a>
+                </div>
+            </div>
+            
+            <div class="game-card">
+                <img src="./121.jpeg" alt="Horizon Forbidden West">
+                <div class="game-info">
+                    <h3>Horizon Forbidden West</h3>
+                    <div class="game-meta">
+                        <span class="platform"><i class="fab fa-playstation"></i> PS5</span>
+                        <span class="rating"><i class="fas fa-star"></i> 4.7</span>
+                    </div>
+                    <a href="#" class="btn btn-primary btn-sm">Ver detalles</a>
+                </div>
+            </div>
+            
+            <div class="game-card">
+                <img src="./131.jpeg" alt="Zelda TOTK">
+                <div class="game-info">
+                    <h3>Zelda: Tears of the Kingdom</h3>
+                    <div class="game-meta">
+                        <span class="platform"><i class="fas fa-gamepad"></i> Switch</span>
+                        <span class="rating"><i class="fas fa-star"></i> 4.9</span>
+                    </div>
+                    <a href="#" class="btn btn-primary btn-sm">Ver detalles</a>
+                </div>
+            </div>
+            
+            <div class="game-card">
+                <img src="./141.jpeg" alt="Starfield">
+                <div class="game-info">
+                    <h3>Starfield</h3>
+                    <div class="game-meta">
+                        <span class="platform"><i class="fab fa-xbox"></i> Xbox/PC</span>
+                        <span class="rating"><i class="fas fa-star"></i> 4.3</span>
+                    </div>
+                    <a href="#" class="btn btn-primary btn-sm">Ver detalles</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="pagination">
+            <button class="btn btn-outline"><i class="fas fa-chevron-left"></i> Anterior</button>
+            <span>Página 1 de 5</span>
+            <button class="btn btn-outline">Siguiente <i class="fas fa-chevron-right"></i></button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-gamepad"></i>
+                    <span>GameZone</span>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2025 GameZone. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
